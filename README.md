@@ -200,7 +200,7 @@ sudo systemctl restart apache2
 
 
 
-# Apache Files and Directorys
+# Apache Files and Directories
 ## Content
 - `/var/www/html`: The actual web content, which by default only consists of the default Apache page you saw earlier, is served out of the `/var/www/html` directory. This can be changed by altering Apache configuration files.
 
