@@ -175,6 +175,24 @@ Restart apache2
 sudo systemctl restart apache2
 ```
 
+## "Could not reliably determine the server's fully qualified domain name"
+Type:
+```sh
+sudo nano /etc/apache2/apache2.conf
+```
+
+And insert:
+
+```
+ServerName localhost   
+```
+
+Then restart apache by typing into the terminal:
+```
+sudo systemctl reload apache2
+```
+
+
 ## Cant acess the website via IP but not Domain
 
 Add this code
