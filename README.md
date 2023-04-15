@@ -181,8 +181,7 @@ Type:
 sudo nano /etc/apache2/apache2.conf
 ```
 
-And insert:
-
+Add to the end of the file:
 ```
 ServerName localhost   
 ```
