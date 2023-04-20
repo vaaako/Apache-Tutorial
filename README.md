@@ -43,6 +43,19 @@ Then you can verify:
 sudo ufw status
 ```
 
+If you get a `Status: inactive` message when running the `ufw` status command, it means that the `Firewall` is not yet enabled on the system
+
+It's very important to enable your `Firewall`<br>
+To enable your `Firewall` type:
+```sh
+sudo ufw enable
+```
+
+Then try to verify again:
+```sh
+sudo ufw status
+```
+
 # Checking
 By typing
 ```sh
@@ -56,7 +69,7 @@ First you need you public IPv4, to get this you can google "Wotz my ip?", or, ty
 ```sh
 hostname -I
 ```
->(*IPv4 is the first one*)<br><br>
+>(*IPv4 is the first one*)
 
 Enter it into your browser’s address bar: `http://your_server_ip` *(The server runs in Port 8)*
 >Alternatively, you can access the page by typing in your browser `localhost` or `127.0.0.1`
