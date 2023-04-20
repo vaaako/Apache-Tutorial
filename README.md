@@ -148,6 +148,11 @@ You should receive the following output:
 Syntax OK
 ```
 
+Reload apache:
+```sh
+sudo systemctl reload apache2
+```
+
 Apache should now be serving your domain name. You can test this by navigating to `http://your_domain`
 
 # new-apache.sh
