@@ -43,4 +43,4 @@ sudo a2ensite $DOMAIN.conf
 sudo a2dissite 000-default.conf
 
 # Restart Apache
-sudo systemctl restart apache2
+sudo systemctl reload apache2
